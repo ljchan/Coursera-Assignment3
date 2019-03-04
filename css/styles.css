@@ -1,0 +1,61 @@
+#header-nav {
+	background-color: #3b3a36;
+	border-radius: 0;
+  	border: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand {
+	height: 100px;
+	font-size: 55px;
+	color: #e9ece5;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list {
+  margin-top: 10px;
+  color: #e9ece5;
+}
+
+#nav-list p:hover {
+  background: #c0dfd9;
+}
+
+#pageheader {
+	color: #3b3a36;
+	font-size: 45px;
+	font-weight: bold;
+}
+
+#main-content {
+	background-color: #b3c2bf;
+}
+
+
+/* For medium and large devices */
+@media (min-width: 992){
+	#header-nav {
+		width: 100%;
+	}
+}
+
+/* For small devices */
+@media (max-width: 767px) {
+	#header-nav {
+		width: 100%;
+	}
+
+	.navbar-brand {
+		height:20vw;
+		padding-bottom: 10px;
+	}
+}
