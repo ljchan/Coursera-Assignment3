@@ -22,9 +22,18 @@
 }
 
 #nav-list {
+	padding: 0px;
+}
+
+#nav-list p {
+  list-style:none;
+  padding: 0px;
+  width: 100%;
   margin-top: 10px;
+  font-size: 14px;
   color: #e9ece5;
 }
+
 
 #nav-list p:hover {
   background: #c0dfd9;
@@ -57,5 +66,9 @@
 	.navbar-brand {
 		height:20vw;
 		padding-bottom: 10px;
+	}
+
+	#main-content {
+		width: 85%
 	}
 }
